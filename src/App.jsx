@@ -10,8 +10,8 @@ function App() {
       <h1>I'am Ronaldo</h1>
       <Sidebar />
       <MainContent />
-    </div>
-  );
+      </div>
+);
 }
 
 export default App;
