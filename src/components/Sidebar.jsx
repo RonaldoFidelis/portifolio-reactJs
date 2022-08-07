@@ -2,15 +2,16 @@ import Avatar from "../img/ft_perfil_fundoAzul.jpeg";
 
 //Importando estilo
 import "../style/components/sidebar.sass";
+import SocialMidiaNetworks from "./SocialMidiaNetworks";
 
 const Sidebar = () => {
   return (<aside id="sidebar">
     <img src={Avatar} alt="ft_perfil" />
     <p className="title">Desenvolvedor Front-End</p>
-    <p>redes socias</p>
+    <SocialMidiaNetworks />
     <p>informações de contato</p>
-    <a href="" className="btn">
-      Download arquivo
+    <a href="../src/files/Curiculo - Ronaldo Rafael Fidelis Da Silva.pdf" className="btn" download>
+      Download currículo
     </a>
   </aside>
   );

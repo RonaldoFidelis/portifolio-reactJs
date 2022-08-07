@@ -7,7 +7,7 @@ import "./style/components/app.sass";
 function App() {
   return (
     <div id="portifolio">
-      <h1>I'am Ronaldo</h1>
+      <h1>Ronaldo Rafael F.</h1>
       <Sidebar />
       <MainContent />
       </div>
