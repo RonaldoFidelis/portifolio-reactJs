@@ -1,18 +1,18 @@
 //Importando o icons do Reacts
-import {FaLinkedinIn, FaGithub, FaInstagram} from "react-icons/fa";
+import {FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp} from "react-icons/fa";
 
 import "../style/components/socialmidianetworks.sass";
 
 //Cirando objetos para puxar os icons
 const socialNetworks = [
   {
-    name: "Linkedin", icon: <FaLinkedinIn />
+    name: "Linkedin", icon: <FaLinkedinIn />, a: "https://www.linkedin.com/in/ronaldo-rafael-fidelis-da-silva-9922941a9/"
   },
   {
-    name: "Github", icon: <FaGithub />
+    name: "Github", icon: <FaGithub />, a: "https://github.com/RonaldoFidelis"
   },
   {
-    name: "Instagram", icon: <FaInstagram /> // Vale a pena?
+    name: "WhatsApp", icon: <FaWhatsapp />, a: "https://api.whatsapp.com/send/?phone=5581985162273&text&type=phone_number&app_absent=0"// Vale a pena?
   },
 ];
 
@@ -20,7 +20,7 @@ const SocialMidiaNetworks = () => {
     return (
       <section id="social-networks">
         {socialNetworks.map((network) => (
-          <a href="#" className="social-btn" id={network.name} key={network.name}>
+          <a href={network.a} className="social-btn" id={network.name} key={network.name} target="_blank">
             {network.icon}
           </a>
         ))}
