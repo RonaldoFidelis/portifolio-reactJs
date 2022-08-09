@@ -1,5 +1,5 @@
 //Importando o icons do Reacts
-import {FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp} from "react-icons/fa";
+import {FaLinkedinIn, FaGithub, FaWhatsapp} from "react-icons/fa";
 
 import "../style/components/socialmidianetworks.sass";
 
