@@ -12,10 +12,10 @@ import '../style/components/tecnologies.sass'
 
 //Objetos com o icons
 const IconsTecnologies = [
-  {id:"html", name:"Html5", icon: <DiHtml5/>, discription: ""},
-  {id:"css", name:"Css3", icon: <DiCss3/>, discription: ""},
   {id:"js", name:"JavaScript", icon: <DiJavascript/>, discription: ""},
   {id:"react", name:"ReactJS", icon: <DiReact/>, discription: ""},
+  {id:"html", name:"Html5", icon: <DiHtml5/>, discription: ""},
+  {id:"css", name:"Css3", icon: <DiCss3/>, discription: ""},
   {id:"node", name:"NodeJs", icon: <DiNodejsSmall/>, discription:""},
   {id:"git", name:"Git", icon: <DiGit/>}
 ];

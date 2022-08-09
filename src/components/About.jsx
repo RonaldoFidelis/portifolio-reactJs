@@ -5,10 +5,10 @@ const About = () => {
     <section className="about-container">
         <h2>Sobre</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur nam eligendi molestiae, natus excepturi facere neque odio laudantium accusamus voluptatum ipsa, tempore dignissimos unde illum inventore! Laboriosam sapiente porro quaerat?
+            Sou programador, e estou em buscar da primeira oportunidade na área de desenvolvimento front-end. Atualmente estou cursando faculdade de sistemas para internet. Também faço parte do projeto Embarque Digital, organizada e custeado pela Prefeitura do Recife e o parque tecnologico Porto Digital.
         </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, sequi? In obcaecati doloremque optio possimus saepe quia id. Dicta, quisquam corrupti repellat ipsa laudantium natus voluptatem voluptas minus quod nihil.
+            Por meio do programa, tive a oportunidade de presenciar e participar de projetos com empresas e instituições parceiras, visando alcança soluções tecnologicas para problemas proposto pelas mesmas. Tenho conhecimento em JavaScript, Html5, Css3, NodeJs, versionamento de codigo com o Git e alguns frameworks e bibliotecas, como: React e Sass.
         </p>
     </section>
   )
