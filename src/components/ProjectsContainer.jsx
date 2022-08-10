@@ -5,8 +5,9 @@ import "../style/components/cardproject.sass"
  * Pra adicionar um projeto, é só adicionar mais um objeto.
  */
 const CardProject = [
-  {id:'pokedex',title:'Pokedex', imgUrl:'', url:''},
-  {id:'pokedex',title:'Em breve...', imgUrl:'', url:''}
+  {id:'pokedex',title:'Pokedex', imgUrl:'../src/img/ft_perfil_fundoAzul.jpeg', url:''},
+  {id:'pokedex',title:'Em breve...', imgUrl:'', url:''},
+  {id:'pokedex',title:'Em breve...', imgUrl:'', url:''},
 ];
 
 const ProjectsContainer = () => {
@@ -16,7 +17,7 @@ const ProjectsContainer = () => {
       {CardProject.map((card)=>(
         <div className="card-container" id={card.id} key={card.id}>
           <div className='image-container'>
-            <img src={card.imageSrc} alt='' />
+            <img src={card.imgUrl} alt='' />
           </div>
           <div className="card-content">
             <div className="card-title">
