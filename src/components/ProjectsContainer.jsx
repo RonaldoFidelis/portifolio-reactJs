@@ -1,17 +1,39 @@
+import "../style/components/cardproject.sass"
 
+//Segui a mesma logica dos icones de tecnologia
+/**
+ * Pra adicionar um projeto, é só adicionar mais um objeto.
+ */
+const CardProject = [
+  {id:'pokedex',title:'Pokedex', imgUrl:'', url:''},
+  {id:'pokedex',title:'Em breve...', imgUrl:'', url:''}
+];
 
 const ProjectsContainer = () => {
-  return (
-    <section className="project-container">
-        <h2>Projetos</h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem tempora omnis iusto ipsum dolores corrupti nobis voluptatibus vero, impedit unde deleniti nihil libero. Libero culpa expedita deserunt ea maxime quis.
-        </p>
-        <a href="#" className="btn">
-            Ver Projetos
-        </a>
-   </section>
-  )
+  return <section>
+    <h2>Projetos</h2>
+    <div className="card-grid">
+      {CardProject.map((card)=>(
+        <div className="card-container" id={card.id} key={card.id}>
+          <div className='image-container'>
+            <img src={card.imageSrc} alt='' />
+          </div>
+          <div className="card-content">
+            <div className="card-title">
+              <h3>{card.title}</h3>
+            </div>
+          </div>
+          <div className="card-btn">
+            <button>
+              <a href={card.url}>
+                Ver projeto
+              </a>
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>  
+</section>
 }
 
 export default ProjectsContainer

@@ -4,6 +4,7 @@ import Tecnologies from "./Tecnologies";
 
 import "../style/components/maincontent.sass";
 
+
 const MainContent = () => {
   return (
     <main id="main-content">
