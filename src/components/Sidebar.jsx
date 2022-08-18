@@ -6,7 +6,6 @@ import InforContainer from "./InforContainer";
 
 import SocialMidiaNetworks from "./SocialMidiaNetworks";
 
-
 const Sidebar = () => {
   return (
     <aside id="sidebar">
@@ -14,7 +13,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Front-End</p>
       <SocialMidiaNetworks />
       <InforContainer />
-      <a href="src/files/Curriculo.pdf" className="btn" download='Curriculo-RonaldoRafaelFidelis.pdf' type="application/pdf">
+      <a href="../Curriculo.pdf" className="btn" download='Curriculo-RonaldoRafaelFidelis.pdf' type="application/pdf">
         Download currículo
       </a>
     </aside>
