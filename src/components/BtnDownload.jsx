@@ -7,7 +7,7 @@ function BtnDownload() {
   return (
     <div>
         {btn.map((curriculo) =>(
-            <a href={curriculo.a} className="btn" download={curriculo.down}>
+            <a href={curriculo.a} className="btn" download={curriculo.down} type='application/pdf'>
                 Download Curriculo
           </a>
         ))};
