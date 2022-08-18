@@ -14,9 +14,9 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Front-End</p>
       <SocialMidiaNetworks />
       <InforContainer />
-      <div>
-        <a href="../src/files/Curiculo - Ronaldo Rafael Fidelis Da Silva.pdf"><button className="btn" download>Download Curriculo</button></a>
-      </div>
+      <a href="../src/files/Curiculo - Ronaldo Rafael Fidelis Da Silva.pdf" className="btn" download='Curriculo'>
+        Download Curriculo
+      </a>
       {/* <BtnDownload /> */}
     </aside>
   );
