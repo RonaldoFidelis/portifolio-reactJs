@@ -5,13 +5,13 @@ const btn = [
 
 function BtnDownload() {
   return (
-    <section>
+    <div>
         {btn.map((curriculo) =>(
             <a href={curriculo.a} className="btn" download={curriculo.down}>
                 Download Curriculo
           </a>
         ))};
-    </section>
+    </div>
   );
 };
 
