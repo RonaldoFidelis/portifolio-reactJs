@@ -10,7 +10,9 @@ import SocialMidiaNetworks from "./SocialMidiaNetworks";
 const Sidebar = () => {
   return (
     <aside id="sidebar">
-      <img src={Avatar} alt="ft_perfil" />
+      <section id="Avatar-Img">
+        <img src={Avatar} alt="ft_perfil" />
+      </section>
       <p className="title">Desenvolvedor Front-End</p>
       <SocialMidiaNetworks />
       <InforContainer />
