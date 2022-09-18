@@ -26,7 +26,7 @@ const ProjectsContainer = () => {
           </div>
           <div className="card-btn">
             <button>
-              <a href={card.url} target="blank">
+              <a href={card.url} target="_blank">
                 Ver projeto
               </a>
             </button>
