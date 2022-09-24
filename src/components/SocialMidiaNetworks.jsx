@@ -6,7 +6,7 @@ import "../style/components/socialmidianetworks.sass";
 //Cirando objetos para puxar os icons
 const socialNetworks = [
   {
-    name: "Linkedin", icon: <FaLinkedinIn />, a: "https://www.linkedin.com/in/ronaldo-rafael-fidelis-da-silva-9922941a9/"
+    name: "Linkedin", icon: <FaLinkedinIn />, a: "https://www.linkedin.com/in/ronaldo-fidelis-9922941a9/"
   },
   {
     name: "Github", icon: <FaGithub />, a: "https://github.com/RonaldoFidelis"
